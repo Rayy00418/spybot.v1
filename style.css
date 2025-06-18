@@ -1,0 +1,17 @@
+body {
+  background: black;
+  color: red;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+#leviathan {
+  font-size: 60px;
+  text-shadow: 0 0 20px red;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.7; }
+  50% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.7; }
+}
